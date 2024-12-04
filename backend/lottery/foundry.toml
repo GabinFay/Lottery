@@ -1,0 +1,10 @@
+[profile.default]
+src = "src"
+out = "out"
+solc_version = "0.8.19"
+libs = ["lib"]
+remappings = [
+    "chainlink/=lib/chainlink-brownie-contracts/",
+    "chainlink-brownie-contracts/=lib/chainlink-brownie-contracts/",
+    "forge-std/=lib/forge-std/src/"
+]
